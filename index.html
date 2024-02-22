@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Javascript Sample</title>
+        <style>
+            #divContainer {
+                text-align: center;
+            }
+
+            /* eto pang class name */
+            .redText {
+                color: red;
+                background-color: white;
+            }
+            
+            /* eto pang sample ng may event */
+
+            .redText:hover {
+                color: blue;
+                background-color: green;
+
+            }
+
+            /* eto pang all same tag element*/
+            div {
+                margin-bottom: 1rem;
+                font-size: large;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div id="divContainer">
+            <h1>Login</h1>
+            <div><input type="text" placeholder="Username" class="redText"></div>
+            <div><input type="password" placeholder="Password" class="redText"></div>
+            <div><button>Login</button></div>
+        </div>
+    </body>
+</html>
